@@ -1,0 +1,512 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/reveal.css">
+        <link rel="stylesheet" href="/css/theme/simple.css">
+        <link rel="stylesheet" href="/css/theme/teracy.css">
+
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? '/css/print/pdf.css' : '/css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+        <style>
+            .top {
+               position:fixed;
+               left:0px;
+               top:20px;
+               width:100%;
+            }
+
+            .bottom {
+               position:fixed;
+               left:0px;
+               bottom:20px;
+               width:100%;
+            }
+
+            .left {
+                float: left;
+            }
+
+            .right {
+                float: right;
+            }
+
+            .light-box {
+                background-color: white;
+                opacity: 0.7;
+            }
+
+            .dark-box {
+                background-color: black;
+                opacity: 0.7
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-background-color="black" data-background-image="/css/images/teracy_logo300x300.png" data-background-size="300px">
+                    <h2 class="bottom selective-yellow" style="bottom:5px;">Open and Free</h2>
+                </section>
+                <section data-background-color="black" data-background-image="./images/iStock_78128479_LARGE-1500x430.jpg"><!-- http://isbsg.org/wp-content/uploads/2016/10/iStock_78128479_LARGE-1500x430.jpg -->
+                    <h2 class="red-beech">Productive Development Workflow with teracy-dev</h2>
+                    <blockquote class="selective-yellow">
+                        Change the way you and your teams develop software!
+                    </blockquote>
+                </section>
+                <section>
+                    <section data-background-image="./images/hello-009.jpg"><!--http://kingofwallpapers.com/hello/hello-009.jpg-->
+                        <h2 class="studio">About Me?</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/152a752.jpg"><!--https://media.licdn.com/mpr/mpr/p/1/005/09a/20a/152a752.jpg-->
+                        <p>Hoat Le - @hoatle</p>
+                        <p class="fragment">Software engineer (self-signed certificate)</p>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/hoatle_open_source_dev_history.png">
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/hoatle_commits_by_language.png">
+                    </section>
+                    <section data-background-color="black" data-background-image="/css/images/teracy_logo300x300.png" data-background-size="300px">
+                        <p class="bottom selective-yellow" style="bottom:10px;">Co-founder, CEO of Teracy</p>
+                    </section>
+                </section>
+                <section>
+                    <section data-background-image="./images/About-you-1.jpg">
+                        <h2 class="cerulean">About You?</h2>
+                    </section>
+                    <section data-background-image="./images/web-developer-salary-nyc.jpg"><!--http://media3.cdn.builtinnyc.com/sites/www.builtinnyc.com/files/web-developer-salary-nyc.jpg-->
+                        <h2 class="selective-yellow">Software engineers (dev)?</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/system-administrator.png"><!--http://bobsmartclass.com/icons/product-category/system-administrator.png-->
+                        <h2 class="cerulean">System admins (ops)?</h2>
+                    </section>
+                    <section data-background-image="./images/Devops-Team.jpg"><!--https://cloudsmartz.com/wp-content/uploads/2016/01/Devops-Team.jpg-->
+                        <h2 class="bottom studio">DevOps?</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/college_students_closer_788069103.jpg"><!--https://www.aicsa.com.au/sb_cache/aboutconveyancing/id/62/f/college_students_closer_788069103.jpg-->
+                        <h2>Students?</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/3e7c9523e02677ef46879f377b8f2a84.jpg"><!--http://cdn0.dailydot.com/cache/3e/7c/3e7c9523e02677ef46879f377b8f2a84.jpg-->
+                        <h2>None of above?</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/o-RUDE-BOSS-facebook.jpg"><!--http://i.huffpost.com/gen/1995928/images/o-RUDE-BOSS-facebook.jpg-->
+                        <h2 class="cerulean">Bosses I guess?</h2>
+                    </section>
+                </section>
+                <section data-background-image="./images/HOA-AGENDA.jpg"><!--https://s3.amazonaws.com/dmt-prd/pictures/000/000/059/original/HOA-AGENDA.jpg?1452162683-->
+                    <h2 class="verdun-green">Agenda</h2>
+                    <ul class="dodger-blue">
+                        <li class="fragment">Problems</li>
+                        <li class="fragment">Timeline</li>
+                        <li class="fragment">Insights</li>
+                        <li class="fragment">Features</li>
+                        <li class="fragment">Future</li>
+                        <li class="fragment">Getting started</li>
+                        <li class="fragment">Demo</li>
+                        <li class="fragment">Recap</li>
+                        <li class="fragment">QnA</li>
+                    </ul>
+                </section>
+                <section>
+                    <section data-background-image="./images/forex-robot.jpg"><!--http://mt5fxrobot.com/wp-content/uploads/2015/01/forex-robot.jpg-->
+                        <h2 class="studio">Automated vs Manual</h2>
+                    </section>
+                    <section data-background-image="./images/2015-photo-contest-photo-5.jpg"><!--http://52.0.15.52/sites/default/files/images/special/2015-photo-contest-photo-5.jpg-->
+                    </section>
+                    <section data-background-image="./images/farmers.jpg"><!--http://www.investormarketinglists.com/wp-content/uploads/2011/05/farmers.jpg-->
+                    </section>
+                </section>
+                <section>
+                    <section data-background-image="./images/chel-vop.jpg"><!--http://metapowercoursearhive.com/pictures/ol/reshenie-problem-land/chel-vop.jpg-->
+                        <h2 class="cerulean">Normal Dev Env Setup Problems</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/636056127512715289-863216923_working_hands_by_clairebeast-d32xdc5.jpg"><!--http://az616578.vo.msecnd.net/files/2016/08/01/636056127512715289-863216923_working_hands_by_clairebeast-d32xdc5.jpg-->
+                        <h2>Manually Everytime</h2>
+                        <p>(get your hands dirty everytime)</p>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/no-cooperation.jpg"><!--http://traxpay.com/wp-content/uploads/2016/07/no-cooperation.jpg-->
+                        <h2 class="red-beech">Can't share the dev environment setup</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/Inconsistency.png"><!--http://www.dynamicbusiness.com.au/wp-content/uploads/2017/01/Inconsistency.png-->
+                        <h2 class="selective-yellow light-box">Inconsistences between teammates' dev environments</h2>
+                    </section>
+                    <section data-background-image="./images/angry-man-computer.jpg"><!--http://3.bp.blogspot.com/-HYiQS9nzXUQ/U90mi3NdJVI/AAAAAAAAAO8/7UbFzlyYB1E/s1600/angry-man-computer.jpg-->
+                        <h2 class="top deep-sea" style="top:5px;">Impossible for newbies to start coding right away</h2>
+                    </section>
+                    <section data-background-image="./images/Wasting-Time-Social-Media.jpg"><!--https://lorirtaylor.com/wp-content/uploads/2013/11/Wasting-Time-Social-Media.jpg-->
+                        <h2 class="bottom light-box red-beech">Time wasted for dev environment setup support</h2>
+                    </section>
+                    <section
+                        data-background-image="./images/windows-mac-linux-pc.png"
+                        data-background-size="contain"><!--https://bomgar-bomgar12.netdna-ssl.com/assets/images/windows-mac-linux-pc.png-->
+                        <h2 class="top light-box verdun-green" style="top:10px">Non-portable</h2>
+                    </section>
+                </section>
+                <section
+                    data-background-image="./images/commits_activity_timeline.png"
+                    data-background-size="contain" data-background-position="bottom">
+                    <h2>teracy-dev development timeline</h2>
+                    <ul>
+                        <li>...</li>
+                        <li>2017-02-14 | v0.5.0-b1</li>
+                        <li>2015-05-15 | v0.4.0 - v0.4.1, v0.4.2</li>
+                        <li>2014-07-24 | v0.3.0 - v0.3.1, v0.3.2, v0.3.3, v0.3.4</li>
+                        <li>2013-11-20 | v0.2.0</li>
+                        <li>2013-08-17 | v0.1.0</li>
+                        <li>2013-06-30 | inception</li>
+                    </ul>
+                </section>
+                <section>
+                    <iframe class="stretch" src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1WcGKBk8irvUfV19KWZR9Dt0wCwxD--sJhyXfE-CovHQ&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='500px' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+                </section>
+                <section data-background-color="black">
+                    <iframe width="850" height="500px" src="https://www.youtube.com/embed/TpK-9QMr7MM" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section>
+                    <section data-background-size="contain" data-background-image="./images/original.png"><!--http://www.sas.com/content/dam/SAS/en_us/image/sas-com/icons/navmenu/player-analytics-icon.png/_jcr_content/renditions/original-->
+                        <h2 class="top selective-yellow">Insights</h2>
+                    </section>
+                    <section data-background-color="#7F2C00">
+                        <p>~1k commits</p>
+                        <p>made by 13 contributors</p>
+                        <p>representing ~6.5k lines of code</p>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/code_frequency.png">
+                        <h2 class="studio light-box">Code frequency</h2>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/commits_per_month.png">
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/top_contributors.png">
+
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/language_breakdown.png"></section>
+                    <section data-background-size="contain" data-background-image="./images/github_recent_traffic.png">
+                        <h2 class="studio light-box">github recent traffic</h2>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/docs_site_traffic.png">
+                        <h2 class="studio">docs site recent traffic</h2>
+                    </section>
+                    <section data-background-color="#405F01">
+                        <h2>used for everyday projects for ~4 years</h2>
+                        <ul class="selective-yellow">
+                            <li class="fragment">for all our clients' and company's projects</li>
+                            <li class="fragment">different stacks</li>
+                            <li class="fragment">for ~25-30 known users</li>
+                            <li class="fragment">for X numer of other users from the community</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <section data-background-image="./images/hero-features.png"><!--http://www.sparktrustcertified.com/img/hero-features.png-->
+                        <h2 class="verdun-green light-box">teracy-dev v0.5.0's features</h2>
+                    </section>
+                    <section data-background-color="#7A4ABA">
+                        <h2>Used for developent and production testing with all(*) types of stacks</h2>
+                        <p style="color:gray;">*: expected to work but requires more testing, and documentation</p>
+                    </section>
+                    <section data-background-color="#7F2C00">
+                        <h2 class="cerulean">Fully automated managed servers on your local machine</h2>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/vagrant2.jpg"><!--http://thebpmfreak.files.wordpress.com/2012/10/vagrant2.jpg-->
+                        
+                    </section>
+                    <section data-background-color="#AFD238">
+                        <h2 class="studio">Universally same workflow on Windows, Linux and Mac</h2>
+                    </section>
+                    <section data-background-image="./images/logo_large-c92469b9.png"><!--https://www.vagrantup.com/assets/images/logo_large-c92469b9.png-->
+                        <h2 class="studio">vagrant workflow</h2>
+                        <pre class="fragment"><code>$ vagrant up # to start the VM</code></pre>
+                        <pre class="fragment"><code>$ vagrant ssh # to ssh into the VM</code></pre>
+                        <pre class="fragment"><code>$ vagrant halt # to stop the VM</code></pre>
+                        <pre class="fragment"><code>$ vagrant reload # to restart the VM</code></pre>
+                        <pre class="fragment"><code>$ vagrant destroy # when you're done with the VM</code></pre>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/workflow-with-git.png"><!--http://dev.teracy.org/docs/_images/workflow-with-git.png-->
+                        <p class="bottom">git workflow</p>
+                    </section>
+                    <section data-background-color="black" data-background-size="contain" data-background-image="./images/shutterstock_63455245.jpg"><!--http://www.supportingeducation.org/wp-content/uploads/2013/08/shutterstock_63455245.jpg-->
+                        <h2>Higher performance and productivity gain than default vagrant settings</h2>
+                    </section>
+                    <section data-background-image="./images/reiki3.jpg"><!--http://www.reikiadistancia.org/wp-content/uploads/2015/01/reiki3.jpg-->
+                        <h2 class="studio">Under your full control</h2>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/Anselmus-Green-Checkmark-and-Red-Minus.png"><!--https://openclipart.org/image/2400px/svg_to_png/26048/Anselmus-Green-Checkmark-and-Red-Minus.png-->
+                        <h2 class="deep-sea">Best practices to develop and deploy applications</h2>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/1409261668002.png"><!--https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/08/1409261668002.png-->
+                        <h2 class="top dodger-blue">Full-stack DevOps workstation</h2>
+                    </section>
+                    <section data-background-color="black" data-background-image="./images/explore.jpg"><!--https://static1.squarespace.com/static/5862e6e9bebafb318d9b5ed6/t/586ea73e46c3c4d4959573d8/1483646791456/explore.jpg?format=2500w-->
+                        <h2 class="top dodger-blue">Explore it yourselves...</h2>
+                    </section>
+                </section>
+                <section data-background-color="black" data-background-image="./images/maxresdefault.jpg"><!--https://i.ytimg.com/vi/r6GQ_0c4-k8/maxresdefault.jpg-->
+                    <h2 class="cerulean">teracy-dev's Future</h2>
+                    <blockquote style="color:darkgoldenrod;">
+                        teracy-dev is the best universal development tool for everyone.
+                    </blockquote>
+                    <!-- roadmap?: sorry, no roadmap yet, we need more feedbacks for the next major version -->
+                </section>
+                <section>
+                    <section data-background-image="./images/ready-set-go1.jpg"><!--http://www.futurebehaviour.co.uk/wp-content/uploads/2009/09/ready-set-go1.jpg-->
+    <!--                     <h2 class="cerulean">Getting Started</h2>
+                        <ul>
+                            <li>Terms</li>
+                            <li>Set up</li>
+                            <li>Basic usage</li>
+                            <li>Advanced usage</li>
+                        </ul> -->
+                    </section>
+<!--                     <section>
+                        <h2>Some Terms</h2>
+                        <ul>
+                            <li>host OS (local machine) vs guest OS (virtual machine - VM)</li>
+                            <li>virtualbox</li>
+                            <li>vagrant</li>
+                            <li>terminal</li>
+                            <li>package manager</li>
+                            <li>configuration management tools</li>
+                            <li>Docker</li>
+                            <li>git</li>
+                            <li>github</li>
+                        </ul>
+                    </section> -->
+                    <section data-background-size="contain" data-background-image="./images/figure_01.gif"><!--http://windowsitpro.com/content/content/42269/figure_01.gif-->
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/176619.png"></section><!--http://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/176619.png-->
+                    <section data-background-size="contain" data-background-image="./images/687474703a2f2f6572696b6168656964692e636f6d2f7468656d652f6661746361747a2f696d616765732f76616772616e742f6c6f676f5f76616772616e742e706e67.png"></section><!--https://camo.githubusercontent.com/51b172d944dd3848632774f14a6c02a6feae467b/687474703a2f2f6572696b6168656964692e636f6d2f7468656d652f6661746361747a2f696d616765732f76616772616e742f6c6f676f5f76616772616e742e706e67-->
+                    <section data-background-size="contain" data-background-image="./images/gnome-terminal.png"></section><!--http://cookingwithlinux.com/sites/default/files/gnome-terminal.png-->
+                    <section data-background-size="contain" data-background-image="./images/vim-available-colorschemes.png"></section><!--https://en.code-bude.net/wp-content/uploads/2013/03/vim-available-colorschemes.png-->
+                    <section data-background-size="contain" data-background-image="./images/installhomebrew_3.bmp"></section><!--http://www.molecularecologist.com/wp-content/uploads/2013/08/installhomebrew_3.bmp-->
+                    <section data-background-size="contain" data-background-image="./images/000023.png"></section><!--http://blog.jongallant.com/2017/01/install-git-ftp-windows/000023.png-->
+                    <section data-background-size="contain" data-background-image="./images/Installation-via-aptget.png"></section><!--http://linuxpitstop.com/wp-content/uploads/2015/06/Installation-via-aptget.png-->
+                    <section data-background-size="contain" data-background-image="./images/CMTs1.jpg"></section><!--https://www.getfilecloud.com/blog/wp-content/uploads/2014/07/CMTs1.jpg-->
+                    <section data-background-size="contain" data-background-image="./images/docker.svg"></section><!--https://cdn.worldvectorlogo.com/logos/docker.svg-->
+                    <section data-background-size="contain" data-background-image="./images/container-technology.jpg"></section><!--https://www.sdxcentral.com/wp-content/uploads/2015/03/container-technology.jpg-->
+                    <section data-background-size="contain" data-background-image="./images/docker-containers-vms.png"></section><!--https://www.rightscale.com/blog/sites/default/files/docker-containers-vms.png-->
+                    <section data-background-size="contain" data-background-image="./images/git-logo.jpg"></section><!--http://ipengineer.net/wp-content/uploads/2015/04/git-logo.jpg-->
+                    <section data-background-size="contain" data-background-image="./images/githublogo.png"></section><!--http://itiscloudy.com/wp-content/uploads/2015/10/githublogo.png-->
+                    <section data-background-size="contain" data-background-image="./images/github_octodex.jpg"></section><!--https://regmedia.co.uk/2013/07/17/github_octodex.jpg?x=1200&y=794-->
+                    <section data-background-size="contain" data-background-image="./images/77b4b3e755b32fe555ae90ff9d5b9c2525f4fcc9.png"></section><!--https://packagecontrol.io/readmes/img/77b4b3e755b32fe555ae90ff9d5b9c2525f4fcc9.png-->
+                </section>
+                <section>
+                    <section data-background-image="./images/15830330613_7b66f65439_o.jpg"></section><!--https://farm9.staticflickr.com/8635/15830330613_7b66f65439_o.jpg-->
+                    <section data-background-color="black" data-background-size="contain" data-background-image="./images/a3aa8cddb2ee2737fd5d4bc235279bf7_steps-clipart-steps-clip-art_900-900.png"><!--https://img.clipartfest.com/a3aa8cddb2ee2737fd5d4bc235279bf7_steps-clipart-steps-clip-art_900-900.png-->
+                        <h2 class="top">teracy-dev setup steps</h2>
+                        <ul class="fragment">
+                            <li>vagrant and git are required</li>
+                            <li>Cygwin is required on Windows for rsync to work</li>
+                        </ul>
+                    </section>
+                    <section data-background-image="./images/automatedassembly.jpg"><!--https://tctechcrunch2011.files.wordpress.com/2016/01/automatedassembly.jpg?w=738-->
+                        <h2 class="top light-box">package managers are required</h2>
+                        <p class="fragment bottom light-box cerulean">for automation and consistency setup</p>
+                    </section>
+                    <section>
+                        <iframe width="100%" height="500px" src="https://www.youtube.com/embed/SBOoUIVI3Jw" frameborder="0" allowfullscreen></iframe>
+                    </section>
+                </section>
+                <section>
+                    <section data-background-size="contain" data-background-image="./images/Anselmus-Green-Checkmark-and-Red-Minus.png"><!--https://openclipart.org/image/2400px/svg_to_png/26048/Anselmus-Green-Checkmark-and-Red-Minus.png-->
+                        <h2 class="deep-sea">Development Workflow Best Practices</h2>
+                    </section>
+                    <section data-background-image="./images/logo_large-c92469b9.png"><!--https://www.vagrantup.com/assets/images/logo_large-c92469b9.png-->
+                        <h2 class="studio">$ vagarant up</h2>
+                        <p class="fragment" style="color:gray;">should be the only command a developer required to execute to start any projects</p>
+                    </section>
+                    <section data-background-color="#7F2C00">
+                        <h2>git workflow</h2>
+                        <p>Follow Teracy's best practices</p>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/workflow-with-git.png"></section>
+                    <section data-background-size="contain" data-background-image="./images/2016-01-26_0907_1.jpg"><!--https://www.docker.com/sites/default/files/2016-01-26_0907_1.jpg-->
+<!--                         <h2>CI/CD system</h2> -->
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/semantic_versioning.png"></section>
+                </section>
+                <section data-background-color="#405F01">
+                    <h2>DEMO</h2>
+                </section>
+     <!--            <section>
+                    <h2>Simple Demo</h2>
+                    <ul>
+                        <li>Vagrant basic commands</li>
+                        <li>Docker basic commands</li>
+                        <li>C</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Ruby</li>
+                        <li>PHP, Wordpress</li>
+                        <li>Node.js</li>
+                        <li>Vue.js</li>
+                        <li>Angular</li>
+                        <li>React</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Complex Demo</h2>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Node.js debugging</li>
+                        <li>angular-boilerplate</li>
+                        <li>react-boilerplate</li>
+                        <li>WordPress</li>
+                        <li>Lavarel</li>
+                        <li>Ruby on Rails</li>
+                        <li>Flask</li>
+                        <li>Django</li>
+                        <li>Play</li>
+                    </ul>
+                </section> -->
+                <section>
+                    <section data-background-size="contain" data-background-image="./images/original.png">
+                        <h2 class="top selective-yellow">More Insights</h2>
+                    </section>
+                    <section data-background-color="#7F2C00">
+                        <p>~4 years development</p>
+                        <p class="fragment">~1440h spent</p>
+                        <p class="fragment">~60k USD spent</p>
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/95580.jpg"><!--http://fb.ru/misc/i/gallery/13297/95580.jpg-->
+                        <h2 class="bottom verdun-green">Free</h2>
+<!--                         <p>We're giving back to the community for free</p> -->
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/opensource-logo.png"><!--http://openitagency.eu/wp-content/uploads/2014/01/opensource-logo.png-->
+<!--                         <h2>Open Source</h2> -->
+<!--                         <p>We open it up to the community for contribution</p> -->
+                    </section>
+                </section>
+                <section data-background-size="contain" data-background-image="./images/dreamstime_s_15778978_copy.jpg"><!--http://www.plandashboard.com/assets/dreamstime_s_15778978_copy.jpg-->
+                    <section>
+                        <h2 class="bottom studio">Teracy and FOSS</h2>
+<!--                         <p>We're giving back more and more to the community</p> -->
+                    </section>
+                    <section data-background-size="contain" data-background-image="./images/individual_accountability.jpg"><!--http://4.bp.blogspot.com/-uN8nC6Qlcxc/UAhgYdw67AI/AAAAAAAABb0/zPsr1VPqrZY/s1600/individual+accountability.jpg-->
+                        <h2 class="dodger-blue bottom">How to contribute</h2>
+<!--                         <p>Use it, send feedback, bugs report</p> -->
+                    </section>
+                    <section data-background-image="./images/a9f9c05a5215dda1cea1cf18828f02be.jpg"><!--https://s-media-cache-ak0.pinimg.com/originals/a9/f9/c0/a9f9c05a5215dda1cea1cf18828f02be.jpg-->
+                        <h2 class="bottom light-box studio">How to join developing</h2>
+<!--                         <p>Read the code, fix bugs, improve the code, add more features, master the project, give it the direction</p> -->
+                    </section>
+                </section>
+                <section data-background-image="./images/review2.jpg"><!--http://www.daily25.com/wp-content/uploads/2013/07/review2.jpg-->
+                    <h2 class="selective-yellow">Recap</h2>
+                    <ul class="dodger-blue">
+                        <li class="fragment">Normal Dev Env Problems</li>
+                        <li class="fragment">teracy-dev</li>
+                        <li class="fragment">Teracy and FOSS</li>
+                    </ul>
+                </section>
+                <section data-background-size="contain" data-background-image="./images/ask-questions.jpg"><!--http://www.socialmediaminder.com/wp-content/uploads/2014/11/ask-questions.jpg-->
+                    <h2 class="bottom selective-yellow">Questions and Answers</h2>
+                </section>
+                <section data-background-color="black" data-background-image="./images/bioresonance-eeg-heartbeat.gif"><!--http://www.finalstrut.net/images/bioresonance-eeg-heartbeat.gif-->
+                    <h2 class="deep-sea">Thank You!</h2>
+<!--                     <ul>
+                        <li class="fragment">Sponsors</li>
+                        <li class="fragment">Organizers</li>
+                        <li class="fragment">Beloved friends who come here to join us</li>
+                        <li class="fragment">Teracy team-mates (ex- included)</li>
+                    </ul> -->
+                </section>
+                <section data-background-image="./images/teracy_logo.png">
+                    <h2 class="studio">Contact Us</h2>
+                    <ul class="red-beech">
+                        <li>
+                            <a href="https://github.com/teracyhq">https://github.com/teracyhq</a> for projects
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/teracyhq">https://www.facebook.com/teracyhq</a> for news
+                        </li>
+                        <li><a href="mailto:hq@teracy.com">hq[at]teracy.com</a> for general, partnership</li>
+                        <li><a href="mailto:hr@teracy.com">hr[at]teracy.com</a> for career opportunity</li>
+                        <li><a href="mailto:hoatle@teracy.com">hoatle[at]teracy.com</a> for others</a>
+                    </ul>
+                </section>
+                <section data-background-color="#405F01">
+                    <h2>Credits</h2>
+                    <div style="max-height: 500px; overflow: auto">
+                    <ul>
+                        <li>http://isbsg.org/wp-content/uploads/2016/10/iStock_78128479_LARGE-1500x430.jpg</li>
+                        <li>http://kingofwallpapers.com/hello/hello-009.jpg</li>
+                        <li>https://media.licdn.com/mpr/mpr/p/1/005/09a/20a/152a752.jpg</li>
+                        <li>http://www.breakingthroughwithyou.co.uk/wp-content/uploads/2012/04/About-you-1.jpg</li>
+                        <li>http://media3.cdn.builtinnyc.com/sites/www.builtinnyc.com/files/web-developer-salary-nyc.jpg</li>
+                        <li>http://bobsmartclass.com/icons/product-category/system-administrator.png</li>
+                        <li>https://cloudsmartz.com/wp-content/uploads/2016/01/Devops-Team.jpg</li>
+                        <li>https://www.aicsa.com.au/sb_cache/aboutconveyancing/id/62/f/college_students_closer_788069103.jpg</li>
+                        <li>http://cdn0.dailydot.com/cache/3e/7c/3e7c9523e02677ef46879f377b8f2a84.jpg</li>
+                        <li>http://i.huffpost.com/gen/1995928/images/o-RUDE-BOSS-facebook.jpg</li>
+                        <li>https://s3.amazonaws.com/dmt-prd/pictures/000/000/059/original/HOA-AGENDA.jpg?1452162683</li>
+                        <li>http://mt5fxrobot.com/wp-content/uploads/2015/01/forex-robot.jpg</li>
+                        <li>http://52.0.15.52/sites/default/files/images/special/2015-photo-contest-photo-5.jpg</li>
+                        <li>http://www.investormarketinglists.com/wp-content/uploads/2011/05/farmers.jpg</li>
+                        <li>http://metapowercoursearhive.com/pictures/ol/reshenie-problem-land/chel-vop.jpg</li>
+                        <li>http://az616578.vo.msecnd.net/files/2016/08/01/636056127512715289-863216923_working_hands_by_clairebeast-d32xdc5.jpg</li>
+                        <li>http://traxpay.com/wp-content/uploads/2016/07/no-cooperation.jpg</li>
+                        <li>http://www.dynamicbusiness.com.au/wp-content/uploads/2017/01/Inconsistency.png</li>
+                        <li>http://3.bp.blogspot.com/-HYiQS9nzXUQ/U90mi3NdJVI/AAAAAAAAAO8/7UbFzlyYB1E/s1600/angry-man-computer.jpg</li>
+                        <li>https://lorirtaylor.com/wp-content/uploads/2013/11/Wasting-Time-Social-Media.jpg</li>
+                        <li>https://bomgar-bomgar12.netdna-ssl.com/assets/images/windows-mac-linux-pc.png</li>
+                        <li>http://www.sas.com/content/dam/SAS/en_us/image/sas-com/icons/navmenu/player-analytics-icon.png/_jcr_content/renditions/original</li>
+                        <li>http://www.sparktrustcertified.com/img/hero-features.png</li>
+                        <li>http://thebpmfreak.files.wordpress.com/2012/10/vagrant2.jpg</li>
+                        <li>https://www.vagrantup.com/assets/images/logo_large-c92469b9.png</li>
+                        <li>http://dev.teracy.org/docs/_images/workflow-with-git.png</li>
+                        <li>http://www.supportingeducation.org/wp-content/uploads/2013/08/shutterstock_63455245.jpg</li>
+                        <li>http://www.reikiadistancia.org/wp-content/uploads/2015/01/reiki3.jpg</li>
+                        <li>https://openclipart.org/image/2400px/svg_to_png/26048/Anselmus-Green-Checkmark-and-Red-Minus.png</li>
+                        <li>https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/08/1409261668002.png</li>
+                        <li>https://static1.squarespace.com/static/5862e6e9bebafb318d9b5ed6/t/586ea73e46c3c4d4959573d8/1483646791456/explore.jpg?format=2500w</li>
+                        <li>https://i.ytimg.com/vi/r6GQ_0c4-k8/maxresdefault.jpg</li>
+                        <li>http://www.futurebehaviour.co.uk/wp-content/uploads/2009/09/ready-set-go1.jpg</li>
+                        <li>http://windowsitpro.com/content/content/42269/figure_01.gif</li>
+                        <li>http://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/176619.png</li>
+                        <li>https://camo.githubusercontent.com/51b172d944dd3848632774f14a6c02a6feae467b/687474703a2f2f6572696b6168656964692e636f6d2f7468656d652f6661746361747a2f696d616765732f76616772616e742f6c6f676f5f76616772616e742e706e67</li>
+                        <li>http://cookingwithlinux.com/sites/default/files/gnome-terminal.png</li>
+                        <li>https://en.code-bude.net/wp-content/uploads/2013/03/vim-available-colorschemes.png</li>
+                        <li>http://www.molecularecologist.com/wp-content/uploads/2013/08/installhomebrew_3.bmp</li>
+                        <li>http://blog.jongallant.com/2017/01/install-git-ftp-windows/000023.png</li>
+                        <li>http://linuxpitstop.com/wp-content/uploads/2015/06/Installation-via-aptget.png</li>
+                        <li>https://www.getfilecloud.com/blog/wp-content/uploads/2014/07/CMTs1.jpg</li>
+                        <li>https://cdn.worldvectorlogo.com/logos/docker.svg</li>
+                        <li>https://www.sdxcentral.com/wp-content/uploads/2015/03/container-technology.jpg</li>
+                        <li>https://www.rightscale.com/blog/sites/default/files/docker-containers-vms.png</li>
+                        <li>http://ipengineer.net/wp-content/uploads/2015/04/git-logo.jpg</li>
+                        <li>http://itiscloudy.com/wp-content/uploads/2015/10/githublogo.png</li>
+                        <li>https://regmedia.co.uk/2013/07/17/github_octodex.jpg?x=1200&y=794</li>
+                        <li>https://packagecontrol.io/readmes/img/77b4b3e755b32fe555ae90ff9d5b9c2525f4fcc9.png</li>
+                        <li>https://farm9.staticflickr.com/8635/15830330613_7b66f65439_o.jpg</li>
+                        <li>https://img.clipartfest.com/a3aa8cddb2ee2737fd5d4bc235279bf7_steps-clipart-steps-clip-art_900-900.png</li>
+                        <li>https://tctechcrunch2011.files.wordpress.com/2016/01/automatedassembly.jpg?w=738</li>
+                        <li>https://openclipart.org/image/2400px/svg_to_png/26048/Anselmus-Green-Checkmark-and-Red-Minus.png</li>
+                        <li>https://www.vagrantup.com/assets/images/logo_large-c92469b9.png</li>
+                        <li>https://www.docker.com/sites/default/files/2016-01-26_0907_1.jpg</li>
+                        <li>http://fb.ru/misc/i/gallery/13297/95580.jpg</li>
+                        <li>http://openitagency.eu/wp-content/uploads/2014/01/opensource-logo.png</li>
+                        <li>http://www.plandashboard.com/assets/dreamstime_s_15778978_copy.jpg</li>
+                        <li>http://4.bp.blogspot.com/-uN8nC6Qlcxc/UAhgYdw67AI/AAAAAAAABb0/zPsr1VPqrZY/s1600/individual+accountability.jpg</li>
+                        <li>https://s-media-cache-ak0.pinimg.com/originals/a9/f9/c0/a9f9c05a5215dda1cea1cf18828f02be.jpg</li>
+                        <li>http://www.daily25.com/wp-content/uploads/2013/07/review2.jpg</li>
+                        <li>http://www.socialmediaminder.com/wp-content/uploads/2014/11/ask-questions.jpg</li>
+                        <li>http://www.finalstrut.net/images/bioresonance-eeg-heartbeat.gif</li>
+                    </ul>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <script src="/js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+                history: true,
+                pdfMaxPagesPerSlide: 1
+            });
+        </script>
+    </body>
+</html>
