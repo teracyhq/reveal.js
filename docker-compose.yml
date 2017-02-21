@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev
+    # we use image for faster developing with `npm install` already run
+    image: hoatle/reveal.js:dev_presentations
+    command: bash -c "grunt serve"
+    environment:
+      - NODE_ENV=development
+      - VIRTUAL_HOST=slides-d.teracy.dev
+    volumes:
+      - .:/opt/app
+    ports:
+      - 8000
+    # to get this work with https://github.com/jwilder/nginx-proxy
+    # related: https://github.com/jwilder/nginx-proxy/issues/305
+    network_mode: bridge

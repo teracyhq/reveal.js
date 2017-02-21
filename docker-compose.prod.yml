@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # we use image for faster developing with `npm install` already run
+    image: hoatle/reveal.js:presentations
+    environment:
+      - VIRTUAL_HOST=slides.teracy.dev
+    ports:
+      - 80
+    # to get this work with https://github.com/jwilder/nginx-proxy
+    # related: https://github.com/jwilder/nginx-proxy/issues/305
+    network_mode: bridge
