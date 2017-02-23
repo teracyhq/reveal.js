@@ -106,8 +106,9 @@
                         <li class="fragment">Features</li>
                         <li class="fragment">Future</li>
                         <li class="fragment">Getting started</li>
+                        <li class="fragment">Development workflow best practices</li>
                         <li class="fragment">Demo</li>
-                        <li class="fragment">Recap</li>
+                        <li class="fragment">Teracy and FOSS (Free Open Source Software)</li>
                         <li class="fragment">QnA</li>
                     </ul>
                 </section>
@@ -176,7 +177,7 @@
                         <p>representing ~6.5k lines of code</p>
                     </section>
                     <section data-background-size="contain" data-background-image="./images/code_frequency.png">
-                        <h2 class="studio light-box">Code frequency</h2>
+                        <h2 class="studio light-box top">Code frequency</h2>
                     </section>
                     <section data-background-size="contain" data-background-image="./images/commits_per_month.png">
                     </section>
@@ -185,10 +186,10 @@
                     </section>
                     <section data-background-size="contain" data-background-image="./images/language_breakdown.png"></section>
                     <section data-background-size="contain" data-background-image="./images/github_recent_traffic.png">
-                        <h2 class="studio light-box">github recent traffic</h2>
+                        <h2 class="studio light-box top">github recent traffic</h2>
                     </section>
                     <section data-background-size="contain" data-background-image="./images/docs_site_traffic.png">
-                        <h2 class="studio">docs site recent traffic</h2>
+                        <h2 class="studio top">docs site recent traffic</h2>
                     </section>
                     <section data-background-color="#405F01">
                         <h2>used for everyday projects for ~4 years</h2>
@@ -232,7 +233,7 @@
                         <h2>Higher performance and productivity gain than default vagrant settings</h2>
                     </section>
                     <section data-background-image="./images/reiki3.jpg"><!--http://www.reikiadistancia.org/wp-content/uploads/2015/01/reiki3.jpg-->
-                        <h2 class="studio">Under your full control</h2>
+                        <h2 class="top dodger-blue">Under your full control</h2>
                     </section>
                     <section data-background-size="contain" data-background-image="./images/Anselmus-Green-Checkmark-and-Red-Minus.png"><!--https://openclipart.org/image/2400px/svg_to_png/26048/Anselmus-Green-Checkmark-and-Red-Minus.png-->
                         <h2 class="deep-sea">Best practices to develop and deploy applications</h2>
@@ -306,8 +307,10 @@
                         <h2 class="top light-box">package managers are required</h2>
                         <p class="fragment bottom light-box cerulean">for automation and consistency setup</p>
                     </section>
-                    <section>
+<!--                     <section>
                         <iframe width="100%" height="500px" src="https://www.youtube.com/embed/SBOoUIVI3Jw" frameborder="0" allowfullscreen></iframe>
+                    </section> -->
+                    <section data-background-size="contain" data-background-image="./images/teracy-dev_getting_started.png">
                     </section>
                 </section>
                 <section>
@@ -332,26 +335,22 @@
                     <h2>DEMO</h2>
                 </section>
      <!--            <section>
-                    <h2>Simple Demo</h2>
+                    <h2>Demo</h2>
                     <ul>
-                        <li>Vagrant basic commands</li>
+                        <li>teracy-dev basic + advanced usage</li>   
                         <li>Docker basic commands</li>
                         <li>C</li>
                         <li>Java</li>
                         <li>Python</li>
                         <li>Ruby</li>
-                        <li>PHP, Wordpress</li>
+                        <li>PHP</li>
                         <li>Node.js</li>
+                        <li>Go</li>
+                        <li>static html</li>
                         <li>Vue.js</li>
                         <li>Angular</li>
                         <li>React</li>
-                    </ul>
-                </section>
-                <section>
-                    <h2>Complex Demo</h2>
-                    <ul>
-                        <li>Node.js</li>
-                        <li>Node.js debugging</li>
+                        <li>Express and Debugging</li>
                         <li>angular-boilerplate</li>
                         <li>react-boilerplate</li>
                         <li>WordPress</li>
@@ -359,9 +358,8 @@
                         <li>Ruby on Rails</li>
                         <li>Flask</li>
                         <li>Django</li>
-                        <li>Play</li>
                     </ul>
-                </section> -->
+                </section>-->
                 <section>
                     <section data-background-size="contain" data-background-image="./images/original.png">
                         <h2 class="top selective-yellow">More Insights</h2>
@@ -408,8 +406,8 @@
                 <section data-background-color="black" data-background-image="./images/bioresonance-eeg-heartbeat.gif"><!--http://www.finalstrut.net/images/bioresonance-eeg-heartbeat.gif-->
                     <h2 class="deep-sea">Thank You!</h2>
 <!--                     <ul>
-                        <li class="fragment">Sponsors</li>
                         <li class="fragment">Organizers</li>
+                        <li class="fragment">Sponsors</li>
                         <li class="fragment">Beloved friends who come here to join us</li>
                         <li class="fragment">Teracy team-mates (ex- included)</li>
                     </ul> -->
@@ -505,7 +503,11 @@
         <script>
             Reveal.initialize({
                 history: true,
-                pdfMaxPagesPerSlide: 1
+                pdfMaxPagesPerSlide: 1,
+                dependencies: [
+                    { src: 'socket.io/socket.io.js', async: true },
+                    { src: 'plugin/notes-server/client.js', async: true }
+                ]
             });
         </script>
     </body>
